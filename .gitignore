@@ -1,0 +1,12 @@
+/build/
+/build-*/
+/out/
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.profraw
+*.profdata
+.DS_Store
