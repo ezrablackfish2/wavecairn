@@ -1,0 +1,10 @@
+name: wavecairn
+language: c++
+standard: c++20
+fuzz_targets:
+  - session_import_fuzzer
+  - edit_replay_fuzzer
+  - routing_graph_fuzzer
+  - render_plan_fuzzer
+  - package_workspace_fuzzer
+seed_corpus: fuzz/corpus
